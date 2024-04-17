@@ -11,4 +11,3 @@ Os seguintes participantes:
 - Julio Eduardo de Sales
 - Melissa Beatriz Vieira
 - Miran Romeiro Ferreira da Silva
-- Sabrina Eduarda de Torres**
