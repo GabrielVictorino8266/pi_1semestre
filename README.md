@@ -1,6 +1,6 @@
 # Grupo 7 - 1º Semestre
 
-# Tema: Educação de Qualidade
+## Tema: Educação de Qualidade
 
 Repositório criado para o Grupo 7 referente ao 1º Semestre de DSM na Fatec Araras.
 Os seguintes participantes:
