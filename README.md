@@ -11,3 +11,9 @@ Os seguintes participantes:
 - Julio Eduardo de Sales
 - Melissa Beatriz Vieira
 - Miran Romeiro Ferreira da Silva
+
+## Projeto EducaQuest
+
+O projeto EducaQuest tem como objetivo contribuir com a mlehora da educação brasileira e, 
+principalmente na cidade de Araras. A ideia é através de um game por Quiz, trazer interação e diversão
+para as aulas das escolas. Tudo isso, segue os objetivos da ONU, tema 4 referente a Educação de Qualidade.
