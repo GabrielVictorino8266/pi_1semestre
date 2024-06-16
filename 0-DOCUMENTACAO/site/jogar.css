@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* :root{
+    Mobile Configuration
+    --mobile-title: 21px;
+    --mobile-text: 16px;
+} */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 1px solid red;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+@media (max-width: 800px){
+
+    /* Mobile Top Header */
+    .cabecalho-mobile{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .cabecalho-mobile-item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .screen-name{
+        color: #000;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+
+
+
+
+    /* Mobile Bottom Navbar */
+    footer{
+        display: none;
+    }
+
+    .mobile-navbar{
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 100px;
+        width: 100%;
+        overflow-x: auto;
+        background-color: #fff;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    }
+
+    .navbar-option{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .navbar-text{
+        text-decoration: none;
+        font-weight: 800;
+        color: #000;
+    }
+}
