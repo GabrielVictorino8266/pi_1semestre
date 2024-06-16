@@ -17,9 +17,11 @@
 
 
 
-@media (max-width: 480px){
+@media (max-width: 768px){ 
+
     /* Mobile Top Header */
     .cabecalho-mobile{
+        display: block;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -63,10 +65,6 @@
         margin-right: 20px;
         padding: 20px;
     }
-/* 
-    .button-player-mode:hover{
-        background-color: rgba(0, 0, 0, 0.8);
-    } */
 
     .link-button-player-mode{
         text-decoration: none;
@@ -80,6 +78,7 @@
         text-wrap: wrap;
         text-align: center;
     }
+
 
 
     /* Mobile Bottom Navbar */
