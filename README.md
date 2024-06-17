@@ -47,6 +47,12 @@ As principais ferramentas utilizadas estão descritas abaixo, associadas a sua f
 * [Color Contrast Checker](https://coolors.co/contrast-checker/ffffff-083f87) (site que avalia o contraste de cores)
 * [Coloors ](https://coolors.co/f3f4f3-efc94d-391234-bc4846-083f87)(cria paleta de cores)
 
+##### Codificação
+
+* VSCode (codificação)
+* HTML
+* CSS
+
 ## Site
 
 Acesso o site hospedado no github por [aqui](https://gabrielvictorino8266.github.io/pi_1semestre/site/cadastro.html "EducaQuest")
