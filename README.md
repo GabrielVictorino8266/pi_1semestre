@@ -38,7 +38,7 @@ para as aulas das escolas. Tudo isso, segue os objetivos da ONU, tema 4 referent
 
 ## Site
 
-Acesso o site hospedado no github por [aqui](https://gabrielvictorino8266.github.io/pi_1semestre/site/jogar.html "EducaQuest")
+Acesso o site hospedado no github por [aqui](https://gabrielvictorino8266.github.io/pi_1semestre/site/cadastro.html "EducaQuest")
 
 ## Projetos Integradores de Outros Grupos
 

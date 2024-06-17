@@ -201,33 +201,4 @@
     
         }
     
-    
-    
-        /* Actions Buttons */
-        .botoes-acao-form-cadastrar{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-around;
-            gap: 17px;
-        }
-    
-        #btn-cadastrar{
-            border-radius: 30px;
-            font-size: 1.5rem;
-            font-weight: bold;
-            font-family: "Montserrat", sans-serif;
-            background-color: #083F87;
-            color: #f3f3f3;
-            width: 220px;
-            height: 50px;
-            border: none;
-            margin-top: 40px;
-        }
-    
-        a{
-            font-family: "Montserrat", sans-serif;
-            font-size: 1rem;
-        }
-    
     }
