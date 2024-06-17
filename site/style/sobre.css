@@ -122,12 +122,13 @@ footer{
 
 
 @media (max-width: 768px){ 
-    main{
-        clear: both;
+
+    main, header, footer{
+        all: unset;
     }
 
-    footer{
-        display: none;
+    svg{
+        display: block;
     }
 
     #logo-desktop{
@@ -162,6 +163,9 @@ footer{
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
+        gap: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .text-sobre-content{
@@ -211,9 +215,6 @@ footer{
 
 /* Mobile Devices Smaller - SE */
 @media (max-width: 375px){ 
-    header, footer{
-        display: none;
-    }
 
     /* Mobile Top Header */
     .cabecalho-mobile{
