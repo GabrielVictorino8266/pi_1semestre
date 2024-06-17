@@ -30,14 +30,15 @@ Dentro do contexto do ODS 4, os principais objetivos são:
 
 No Brasil, a educação enfrenta diversos desafios, como a desigualdade de acesso, a qualidade do ensino, a evasão escolar e a formação inadequada de professores. A cidade de Araras, assim como muitas outras cidades, reflete esses desafios, mas também apresenta oportunidades únicas para intervenção e melhoria.
 
-
 ## Projeto EducaQuest
 
 O projeto EducaQuest tem como objetivo contribuir com a mlehora da educação brasileira e,
 principalmente na cidade de Araras. A ideia é através de um game por Quiz, trazer interação e diversão
 para as aulas das escolas. Tudo isso, segue os objetivos da ONU, tema 4 referente a Educação de Qualidade.
 
+## Site
 
+Acesso o site hospedado no github por [aqui](https://gabrielvictorino8266.github.io/pi_1semestre/site/jogar.html "EducaQuest")
 
 ## Projetos Integradores de Outros Grupos
 
