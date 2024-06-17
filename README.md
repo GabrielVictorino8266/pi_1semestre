@@ -36,6 +36,17 @@ O projeto EducaQuest tem como objetivo contribuir com a mlehora da educação br
 principalmente na cidade de Araras. A ideia é através de um game por Quiz, trazer interação e diversão
 para as aulas das escolas. Tudo isso, segue os objetivos da ONU, tema 4 referente a Educação de Qualidade.
 
+## Ferramentas Utilizadas
+
+As principais ferramentas utilizadas estão descritas abaixo, associadas a sua função dentro da elaboração do projeto:
+
+##### Design
+
+* Figma (prototipação)
+* Simulador móvel (ferramenta de teste responsiva)
+* [Color Contrast Checker](https://coolors.co/contrast-checker/ffffff-083f87) (site que avalia o contraste de cores)
+* [Coloors ](https://coolors.co/f3f4f3-efc94d-391234-bc4846-083f87)(cria paleta de cores)
+
 ## Site
 
 Acesso o site hospedado no github por [aqui](https://gabrielvictorino8266.github.io/pi_1semestre/site/cadastro.html "EducaQuest")
