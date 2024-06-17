@@ -126,78 +126,108 @@
 
 /* Mobile Devices Smaller - SE */
 @media (max-width: 375px){ 
-
-
-
-    /* Mobile Top Header */
-    /* .cabecalho-mobile{
-        display: block;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-left: 20px;
-        padding-right: 20px;
-        margin-bottom: 15%;
+        header{
+            display: none;
+        }
+    
+        body, html{
+            width: 100%;
+            height: 50vh;
+        }
+    
+    
+        main{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            gap: 9px;
+        }
+    
+        img{
+            width: 150px;
+            height: auto;
+        }
+    
+    
+    
+    
+        /* Form */
+    
+        .form-cadastrar{
+            display: flex;
+            flex-direction: column;
+            align-items: self-start;
+            justify-content: space-around;
+            gap: 15px;
+            width: 90%;
+            height: auto;
+        }
+    
+        .form-item{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 100%;
+            height: auto;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    
+        select{
+            width: 100%;
+            height: 50px;
+            border-radius: 15px;
+            padding: 12px;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            filter: drop-shadow(rgba(0,0,0,0.4) 2px 4px 4px);
+        }
+    
+        input{
+            width: 100%;
+            height: 50px;
+            border-radius: 15px;
+            padding: 12px;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            filter: drop-shadow(rgba(0,0,0,0.4) 2px 4px 4px);
+        }
+    
+        .label-form-item{
+            width: 320px;
+            height: auto;
+            font-size: 1rem;
+            font-family: "Montserrat", sans-serif;
+    
+        }
+    
+    
+    
+        /* Actions Buttons */
+        .botoes-acao-form-cadastrar{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            gap: 17px;
+        }
+    
+        #btn-cadastrar{
+            border-radius: 30px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            font-family: "Montserrat", sans-serif;
+            background-color: #083F87;
+            color: #f3f3f3;
+            width: 220px;
+            height: 50px;
+            border: none;
+            margin-top: 40px;
+        }
+    
+        a{
+            font-family: "Montserrat", sans-serif;
+            font-size: 1rem;
+        }
+    
     }
-
-    .cabecalho-mobile-item{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .screen-name{
-        color: #000;
-        font-size: 20px;
-        font-weight: 600;
-    } */
-
-
-    /* button Player Mode */
-
-    /* .section-player-mode{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 7px;
-        max-height: 50vh;
-        overflow: scroll;
-    }
-
-    .button-player-mode{
-        height: 150px;
-        width: 200px;
-        background-color: rgba(0, 0, 0, 0.4);
-        border-radius: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding: 20px;
-    }
-
-    .link-button-player-mode{
-        text-decoration: none;
-    }
-
-    .main-text-option{
-        text-decoration: none;
-        color: #000;
-        font-size: 1rem;
-        font-weight: 800;
-        text-wrap: wrap;
-        text-align: center;
-    }
-
-    svg{
-        height: 40px;
-        width: 40px;
-    } */
-
-    /* Mobile Bottom Navbar */
-    footer{
-        display: none;
-    }
-}
