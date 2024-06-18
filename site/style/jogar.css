@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-/* :root{
-    Mobile Configuration
-    --mobile-title: 21px;
-    --mobile-text: 16px;
-} */
-
 *, body, html{
     box-sizing: border-box;
     padding: 0;
