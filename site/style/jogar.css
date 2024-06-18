@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
 :root{
-    --header-back-color: #083F87;
+    --header-back-color: #093979;
     --header-text-color: #D7D7D7;
     
-    --back-button-color: #083F87;
+    --back-button-color: #093979;
 
     --main-text-color: #D7D7D7;
 }
