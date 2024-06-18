@@ -7,7 +7,7 @@
     --mobile-text: 16px;
 } */
 
-*{
+*, body, html{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -15,19 +15,197 @@
     font-family: "Montserrat", sans-serif;
 }
 
+@media (min-width: 768px){  
+    
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header{
+        top: 0;
+        left: 0;
+        height: 140px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 80px 30px 80px;
+        background-color: #D9D9D9;
+        position: fixed;
+        z-index: 1000; /* Para garantir que o header fica sempre acima dos outros elementos */
+    }
+
+    .mobile-navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .navbar-text{
+        text-decoration: none;
+        font-size: 1rem;
+        color: #000;
+        font-weight: bold;
+    }
+
+    .navbar-text:hover{
+        font-family: "Montserrat", sans-serif;
+        transition: 0.4s;
+        color: rgba(0,0,0,0.4); 
+    }
+
+    svg{
+        display: none;
+    }
+
+    .svg-player-mode{
+        display: block;
+        width: 110px;
+        height: auto;
+    }
+
+    .section-player-mode{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .button-player-mode{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: #D9D9D9;
+        height: auto;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        border-radius: 20px;
+        filter: drop-shadow(rgba(0,0,0,0.2) 2px 4px 4px);
+        border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
+    .button-player-mode:hover{
+        cursor: pointer;
+        transition: 0.4s;
+        filter: drop-shadow( 0px 0px 20px rgba(0,0,0,0.8));
+        border: 1px solid rgba(0, 0, 0, 0.4);
+    }
+
+    #logo-desktop{
+        width: 320px;
+        height: 80px;
+    }
+
+    #logo-mobile{
+        width: 200px;
+        width: 170px;
+    }
+
+    main{
+        flex: 1;
+        width: 100%;
+        padding-left: 200px;
+        padding-right: 200px;
+        min-height: 80vh;
+        margin-top: 140px;
+        margin-bottom: 140px;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .screen-name{
+        font-size: 2rem;
+        font-family: "Montserrat", sans-serif;
+        color: #000;
+        font-weight: bold;
+    }
+
+    .main-text-option{
+        text-decoration: none;
+        color: #000;
+        font-size: 1.5rem;
+        font-weight: 800;
+        text-wrap: wrap;
+        text-align: center;
+    }
+
+    .main-text-option:hover{
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.8);
+        transition: 0.2s;
+        font-weight: 800;
+        text-wrap: wrap;
+        text-align: center;
+    }
 
 
-@media (max-width: 768px){ 
+    footer{
+        bottom: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 140px;
+        width: 100%;
+        background-color: #D9D9D9;
+    }
+
+    #footer-text{
+        display: block;
+        color: #000;
+    }
+}
+
+@media (max-width: 768px){  
+    main, header, footer, body{
+        all: unset;
+    }
+
+    header{
+        z-index: 1000;
+    }
+
+    main{
+        flex: 1;
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        min-height: 80%;
+    }
+
+    .button-player-mode{
+        all: unset;
+    }
+
+    svg{
+        display: block;
+    }
+
+    #logo-desktop{
+        display: none;
+    }
 
     /* Mobile Top Header */
     .cabecalho-mobile{
         display: block;
         display: flex;
+        height: 100%;
         justify-content: space-between;
         align-items: center;
         padding-left: 20px;
         padding-right: 20px;
-        margin-bottom: 25%;
+        margin-bottom: 15%;
     }
 
     .cabecalho-mobile-item{
@@ -112,10 +290,18 @@
         font-weight: 800;
         color: #000;
     }
+
+    .navbar-text:hover{
+        all: unset;
+    }
 }
 
 /* Mobile Devices Smaller - SE */
 @media (max-width: 375px){ 
+
+    main, header, footer, .button-player-mode{
+        all: unset;
+    }
 
     /* Mobile Top Header */
     .cabecalho-mobile{
