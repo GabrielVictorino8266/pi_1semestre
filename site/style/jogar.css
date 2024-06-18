@@ -331,7 +331,6 @@
     .screen-name{
         color: #000;
         font-size: 20px;
-        font-weight: 600;
     }
 
 
@@ -350,7 +349,7 @@
     .button-player-mode{
         height: 150px;
         width: 200px;
-        background-color: rgba(0, 0, 0, 0.4);
+        background-color: var(--back-button-color);
         border-radius: 20px;
         display: flex;
         align-items: center;
@@ -366,9 +365,8 @@
 
     .main-text-option{
         text-decoration: none;
-        color: #000;
+        color: var(--main-text-color);
         font-size: 1rem;
-        font-weight: 800;
         text-wrap: wrap;
         text-align: center;
     }
