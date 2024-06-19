@@ -101,7 +101,7 @@
         filter: drop-shadow( 0px 0px 20px rgba(0,0,0,0.8));
         border: 1px solid rgba(255, 255, 255, 255.4);
     }
-
+    
     #logo-desktop{
         width: 320px;
         height: 80px;
@@ -166,9 +166,11 @@
         display: block;
         color: var(--header-text-color);
     }
+
 }
 
 @media (max-width: 768px){  
+
     main, header, footer, body{
         all: unset;
     }
