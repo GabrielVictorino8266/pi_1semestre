@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
+:root{
+    --header-back-color: #093979;
+    --header-text-color: #D7D7D7;
+    
+    --back-button-color: #093979;
 
-/* :root{
-    Mobile Configuration
-    --mobile-title: 21px;
-    --mobile-text: 16px;
-} */
+    --main-text-color: #D7D7D7;
+}
 
 *, body, html{
     box-sizing: border-box;
@@ -25,7 +28,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 80px 30px 80px;
-    background-color: #D9D9D9;
+    background-color: var(--header-back-color);
     position: fixed;
     z-index: 1000; /* Para garantir que o header fica sempre acima dos outros elementos */
 }
@@ -49,18 +52,15 @@ header{
 
 .navbar-item-link{
     text-decoration: none;
-    font-family: "Montserrat", sans-serif;
-    font-size: 1rem;
-    font-weight: bold;
-    color: #000;
+    font-family: "Luckiest Guy", cursive;
+    font-size: 1.1rem;
+    color: var(--header-text-color)
 }
 
 .navbar-item-link:hover{
-    text-decoration: none;
-    font-family: "Montserrat", sans-serif;
+    /* font-family: "Montserrat", sans-serif; */
     transition: 0.4s;
-    color: rgba(0,0,0,0.4);
-    
+    color: rgba(255, 255, 255, 0.6); 
 }
 
 main{
@@ -141,15 +141,17 @@ button{
     width: 220px;
     border-radius: 20px;
     border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: var(--back-button-color);
+    color: var(--main-text-color);
     font-size: 1.5rem;
-    font-weight: bold;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Luckiest Guy", cursive;
 }
 
 button:hover{
     cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.5);
-    transition: 0.2s;
+    background-color: rgba(255, 255, 255, 0.103);
+    color: #000;
+    transition: 0.3s;
 }
     
 
@@ -169,12 +171,12 @@ footer{
     justify-content: center;
     height: 140px;
     width: 100%;
-    background-color: #D9D9D9;
+    background-color: var(--header-back-color);
 }
 
 #footer-text{
     display: block;
-    color: #000;
+    color: var(--header-text-color);
 }
 
 
